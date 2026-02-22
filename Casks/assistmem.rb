@@ -9,6 +9,8 @@ cask "assistmem" do
 
   app "AssistMem.app"
 
+  quarantine false
+
   zap trash: [
     "~/Library/Application Support/com.assistmem.app",
     "~/Library/Logs/com.assistmem.app",
