@@ -9,10 +9,6 @@ cask "assistmem" do
 
   app "AssistMem.app"
 
-  postinstall do
-    system "xattr", "-dr", "com.apple.quarantine", "#{appdir}/AssistMem.app"
-  end
-
   zap trash: [
     "~/Library/Application Support/com.assistmem.app",
     "~/Library/Logs/com.assistmem.app",
