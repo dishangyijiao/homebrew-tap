@@ -1,6 +1,6 @@
 cask "assistmem" do
-  version "0.2.1"
-  sha256 "dddaf1f3868baa947aaa276e18d2b6fb7eb9f33bab8a75443cd0bcdfa9298333"
+  version "0.2.2"
+  sha256 "1155d0f3ec14e092a5019fedcc9e73f07e8c9ca7527a8a5e15dccd453e65c6e0"
 
   url "https://github.com/dishangyijiao/assistant-memory/releases/download/v#{version}/AssistMem_#{version}_aarch64.dmg"
   name "AssistMem"
